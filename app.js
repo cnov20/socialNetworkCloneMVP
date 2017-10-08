@@ -1,7 +1,7 @@
 // Dependencies from node_modules folder created with npm init
 const path = require('path');
 const express = require('express');
-const jsonServer = require('jsonServer');
+const jsonServer = require('json-server');
 
 // App Instantiation
 const app = express();
