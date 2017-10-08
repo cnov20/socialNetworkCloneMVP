@@ -1,6 +1,7 @@
 // Dependencies from node_modules folder created with npm init
 const path = require('path');
 const express = require('express');
+const jsonServer = require('jsonServer');
 
 // App Instantiation
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 app.engine('html', require('ejs').renderFile);
 
 app.use(express.static('public'));
+
 
 //app.use(express.static(path.join(__dirname, '/assets')));
 //app.use(express.static(path.join(__dirname, '/css')));
